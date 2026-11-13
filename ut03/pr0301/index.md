@@ -90,10 +90,10 @@ El siguiente script se inyectará en la instancia durante el asistente de lanzam
     ![alt text](<WhatsApp Image 2026-10-16 at 13.21.34.jpeg>)
 
 2. Inspección del log del sistema por SSH
-    * Modifcamos las reglas para podernos conectar desde CloudShell por que antes solo nos podiamos conecatrde desde la red del instituto
+    <b>* Modifcamos las reglas para podernos conectar desde CloudShell por que antes solo nos podiamos conecatrde desde la red del instituto</b>
     ![alt text](image-24.png)
 
-    * Modifcamos los permisos de las claves para que no sea accesible para otros
+    * <b>Modifcamos los permisos de las claves para que no sea accesible para otros</b>
     ![alt text](image-23.png)
 
     Para verificar el comportamiento de ```cloud-init``` y cómo se procesó el script:
@@ -117,3 +117,5 @@ El siguiente script se inyectará en la instancia durante el asistente de lanzam
     
     * Este es lo que nos devuelve
     ![alt text](image-29.png)
+
+#[INDICE](../INDICE.md)
